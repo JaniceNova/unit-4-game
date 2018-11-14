@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-image: url("../images/backgroundgnomes.png");
+}
+.orangebox {
+    background-color: orange;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-left:15px;
+    width: 335px;
+    margin-top: 15px;
+    padding-left:15px;
+}
+
+.tanbox {
+    background-color: lightgoldenrodyellow;
+    margin-top: 15px;
+    margin-left:15px;
+    font-size: 20px;
+    width: 435px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lightgreenbox {
+    background-color: lightgreen;
+    width: 220px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left:15px;
+    padding-left: 10px;
+    float: left;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.lightbluebox {
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left:15px;
+    width: 120px;
+    height: 150px;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+    float: left;
+    
+}
+
+.buttonRow {
+   clear: both;
+    margin-left:15px;
+}
+
+.greenbox {
+    background-color: green;
+    width: 220px;
+    margin-top: 15px;
+    margin-left:15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+#secondgreenbox {
+    height: 150px;
+    margin-bottom: 45px;
+}
