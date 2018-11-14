@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Collestor!</title>
-    
+
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
+
 <body>
-    
-<h1 class="orangebox">Crystals Collector!</h1>
-<div class="tanbox">
-    <br>
-<p>Your goal profit is in the light green box.
-    </p>
-    <br>
-<p>
-    Click one of the four crystals below to sell it. 
-    </p>
-    <br>
-<p>Sell crystals in order to make exactly the right amount of profit.  If you get too greedy you'll lose.</p>
-    <br>
-<p>The Gnomes wish you the best of luck!</p>
-<br>
-<p>"Findar!"</p>
-<br>
-</div>
-<div class="lightgreenbox">
 
-</div>
+    <h1 class="orangebox">Crystals Collector!</h1>
+    <div class="tanbox">
+        <br>
+        <p>Your goal profit is in the light green box.
+        </p>
+        <br>
+        <p>
+            Click one of the four crystals below to sell it.
+        </p>
+        <br>
+        <p>Sell crystals in order to make exactly the right amount of profit. If you get too greedy you'll lose.</p>
+        <br>
+        <p>The Gnomes wish you the best of luck!</p>
+        <br>
+        <p>"Findar!"</p>
+        <br>
+    </div>
+    <div class="lightgreenbox">
 
-<div class="lightbluebox">
-<div>Wins:<div id="winScore"></div></div>
-<br>
-<div>Loses:<div id="loseScore"></div></div>
-</div>
+    </div>
 
-<div class="buttonRow">
-    <br>
-<button id="c1" onclick="Function1()"><img src="assets/images/orangegem.png" width=100px;></button>
-<button id="c2" onclick="Function2()"><img src="assets/images/redgem.png" width=100px;></button>
-<button id="c3" onclick="Function3()"><img src="assets/images/purplegem.png" width=100px;></button>
-<button id="c4" onclick="Function4()"><img src="assets/images/yellowgem.png" width=100px;></button>
-</div>
+    <div class="lightbluebox">
+        <div>Wins:<div id="winScore"></div>
+        </div>
+        <br>
+        <div>Loses:<div id="loseScore"></div>
+        </div>
+    </div>
 
-<p class="greenbox">Your total score is:</p>
-<div class="greenbox" id="secondgreenbox"></div>
+    <div class="buttonRow">
+        <br>
+        <button id="c1" onclick="Function1()"><img src="assets/images/orangegem.png" width=100px;></button>
+        <button id="c2" onclick="Function2()"><img src="assets/images/redgem.png" width=100px;></button>
+        <button id="c3" onclick="Function3()"><img src="assets/images/purplegem.png" width=100px;></button>
+        <button id="c4" onclick="Function4()"><img src="assets/images/yellowgem.png" width=100px;></button>
+    </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <p class="greenbox">Your total score is:</p>
+    <div class="greenbox" id="secondgreenbox"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
