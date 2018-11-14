@@ -18,15 +18,35 @@ console.log($("#c2").valueAsNumber =crystalNumber2);
 console.log($("#c3").valueAsNumber =crystalNumber3);
 console.log($("#c4").valueAsNumber =crystalNumber4);
 
-
+var zero = 0;
 
 //buttons value appear in dark green box and add
-$("#c1").onclick = function() { 
+function Function1() { 
 
-    //$("#c1").append("#secondgreenbox")
+    $("#secondgreenbox").html(zero + crystalNumber1);
 
     console.log($("#c1").valueAsNumber =crystalNumber1);
+
+    zero = zero + crystalNumber1;
  };
+ function Function2() { 
+    $("#secondgreenbox").html(zero + crystalNumber2);
 
+    console.log($("#c2").valueAsNumber =crystalNumber2);
+    zero = zero + crystalNumber2;
+ };
+ function Function3() { 
 
+    $("#secondgreenbox").html(zero + crystalNumber3);
+
+    console.log($("#c3").valueAsNumber =crystalNumber3);
+    zero = zero + crystalNumber3;
+ };
+ function Function4() { 
+
+    $("#secondgreenbox").html(zero + crystalNumber4);
+
+    console.log($("#c4").valueAsNumber =crystalNumber4);
+    zero = zero + crystalNumber4;
+ };
 
